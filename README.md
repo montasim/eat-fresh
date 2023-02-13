@@ -32,7 +32,7 @@
 <br>
 <br>
 
-<p>Welcome to the first assignment of the Complete Web Development Course With Jhankar Mahbub. I have tried to make something with HTML5 and CSS3 only. My intension was to make a pixel perfect website.</p>
+<p>Welcome to the first exercise of the Complete Web Development Course With Jhankar Mahbub. I have tried to make something with HTML5 and CSS3 only. My intension was to make a pixel perfect website.</p>
 
 <br>
 <br>
