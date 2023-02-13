@@ -1,2 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    --orange: #FBA24F;
+    --red: #FF1E1E;
+    --black: #0B0D17;
+    --gray: #5B5B5B;
+    --white: #FFFFFF;
+}
+
+.margin-zero{
+    margin: 0;
+}
+
+span{
+    background: linear-gradient(88.33deg, var(--orange) -7.64%, var(--red) 145.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+footer{
+    background-color: var(--black);
+    padding: 37px 0 115px;
+    text-align: center;
+}
+
+footer h1{
+    color: var(--gray);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+footer p{
+    color: var(--white);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'liga' off;
+}
