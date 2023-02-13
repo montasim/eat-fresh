@@ -5,6 +5,7 @@
     --orange: #FBA24F;
     --red: #FF1E1E;
     --black: #0B0D17;
+    --black-text: #18191F;
     --gray: #5B5B5B;
     --white: #FFFFFF;
 }
@@ -13,11 +14,51 @@
     margin: 0;
 }
 
+.flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
 span{
     background: linear-gradient(88.33deg, var(--orange) -7.64%, var(--red) 145.94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.summary{
+    margin: 100px 101px 92px;
+    padding: 64px 165px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.summary h1, p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-feature-settings: 'liga' off;
+    color: var(--black-text);
+}
+
+.summary h1{
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.summary P{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 footer{
