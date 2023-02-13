@@ -10,6 +10,8 @@
     --gray: #5B5B5B;
     --gray-dark: #676767;
     --gray-dark2: #707070;
+    --gray-dark3: #575757;
+    --gray-dark4: #828282;
     --white: #FFFFFF;
 }
 
@@ -31,6 +33,10 @@
 
 .justify-center{
     justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
 }
 
 .justify-evenly{
@@ -64,6 +70,47 @@ button{
 
 .half-width{
     width: 50%;
+}
+
+.introduction{
+    margin: 0 50px 102px 100px;
+}
+
+.introduction h1, p{
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.introduction h1{
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: var(--gray-dark3);
+}
+
+.introduction p{
+    width: 499px;
+    margin-bottom: 49px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    color: var(--gray-dark4);
+}
+
+.introduction-image-container{
+    background-image: url("../media/images/shapes/Group\ 8450.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: 7.8em 13.8em;
+}
+
+.introduction img{
+    width: 650px;
+    height: 700px;
+    margin: 0 3em 9em 0;
 }
 
 .about{
