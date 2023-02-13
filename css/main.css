@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
 
 :root {
     --orange: #FBA24F;
@@ -9,6 +9,7 @@
     --black-text2: #252525;
     --gray: #5B5B5B;
     --gray-dark: #676767;
+    --gray-dark2: #707070;
     --white: #FFFFFF;
 }
 
@@ -45,6 +46,67 @@ span{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+button{
+    padding: 24px 32px;
+    background: linear-gradient(88.33deg, var(--orange) -7.64%, var(--red) 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border: none;
+    border-radius: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--white);
+}
+
+.half-width{
+    width: 50%;
+}
+
+.about{
+    margin: 101.04px 0 72px;
+    background-color: rgba(252, 143, 73, 0.1);
+    background-image: url("../media/images/shapes/7.png");
+    background-repeat: no-repeat;
+}
+
+.about img{
+    width: 338px;
+    height: 536px;
+}
+
+.about-text-container{
+    margin: 127px 0 69px 0;
+    padding: 0 48px 0;
+}
+
+.about-text-container h1{
+    margin-bottom: 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    font-feature-settings: 'liga' off;
+    color: var(--gray-dark2);
+}
+
+.about-text-container p{
+    width: 444px;
+    color: #18191F;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+}
+
+.about-text-container button{
+    margin-top: 90px;
 }
 
 .recipies-text-container{
