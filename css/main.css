@@ -103,13 +103,15 @@ button{
 .introduction-image-container{
     background-image: url("../media/images/shapes/Group\ 8450.png");
     background-repeat: no-repeat;
-    background-size: 500px;
-    background-position: 7.8em 13.8em;
+    background-size: 600px;
+    object-fit: contain;
+    background-position: 14.5em 13.8em;
 }
 
 .introduction img{
-    width: 650px;
-    height: 700px;
+    width: 950px;
+    height: 800px;
+    object-fit: contain;
     margin: 0 3em 9em 0;
 }
 
