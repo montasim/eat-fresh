@@ -118,6 +118,7 @@ button{
     background-color: rgba(252, 143, 73, 0.1);
     background-image: url("../media/images/shapes/7.png");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .about img{
